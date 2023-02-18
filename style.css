@@ -1,0 +1,19 @@
+body{
+    background-color: whitesmoke;
+}
+
+.cta{
+    text-decoration: none;
+    border-radius: 16px;
+    color: black;
+    outline: 5px solid black;
+    padding: 5px;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.cta:hover{
+    outline: 5px solid whitesmoke;
+    color: whitesmoke;
+    background-color: black;
+}
