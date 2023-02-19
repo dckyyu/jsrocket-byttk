@@ -1,9 +1,16 @@
 body{
     background-color: whitesmoke;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 280px;
 }
 
 .cta{
     text-decoration: none;
+    text-transform: uppercase;
     border-radius: 16px;
     color: black;
     outline: 5px solid black;
