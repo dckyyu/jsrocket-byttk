@@ -1,3 +1,21 @@
+// using toggle classlist
+/*function doStuff() {
+    var stuff = document.getElementById('stuff');
+    stuff.classList.toggle('stuffwhite');
+}*/
+
+// using if else classname for changing class
+var doStuff = function () {
+    var currentClassName = document.getElementById('stuff').className;
+
+    if (currentClassName == 'stuff') {
+        document.getElementById('stuff').className = 'stuff white';
+    } else {
+        document.getElementById('stuff').className = 'stuff';
+    }
+} 
+
+
 var car = {
     make: 'VW',
     type: 'Polo',

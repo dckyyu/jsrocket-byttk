@@ -24,3 +24,18 @@ h1{
     color: whitesmoke;
     background-color: black;
 }
+
+.stuff{
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 20px;
+    padding: 0;
+    transition: background-color 3s;
+}
+
+.stuff.white{
+    background-color: #fff;
+    color: black;
+}
+
+
